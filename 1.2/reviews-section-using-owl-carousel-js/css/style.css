@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bg-white{
+  background: #fff;
+}
+body{
+  font-family: sans-serif;
+  background: #137DFC;
+  overflow: hidden;
+  font-size: 16px;
+}
+hr{
+  height: 5px;
+  background: #137DFC;
+  margin: 30px auto;
+  width: 70px;
+}
+p{
+  text-align: center;
+  font-style: italic;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #333;
+  padding: 5px;
+}
+img{
+  width: 100px!important;
+  height: 100px;
+  border-radius: 50%;
+}
+.container{
+  text-align: center;
+  color: #383D43;
+}
+.container img{
+  margin: auto;
+  border: 5px solid #BCBEC1;
+}
+
+/*__________________  Custom CSS owl carousel  ______________________________________*/
+
+.owl-theme .owl-dots .owl-dot span{
+  width: 30px;
+  border-radius: 0;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  background: #1660FF;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+  background: #1660FF;
+}
+.owl-carousel{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-top: 10px;
+}
